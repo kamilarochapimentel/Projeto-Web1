@@ -255,122 +255,125 @@ footer .footer-container a{
 /* RESPONSIVIDADE */
 
 @media screen and (max-width: 768px) {
-    body {
-        width: 100%;
-        /* display: block; */
-         }
+body {
+    width: 100%;
+ }
       
-        header {
-        padding: 15px;
-        height: auto;
-        align-items: start;
-        justify-content: space-between;
-         }
+header {
+    padding: 15px;
+    height: auto;
+    align-items: start;
+    justify-content: space-between;
+ }
         
-         header nav {
-         flex-direction: column;
-         font-size: 14px;
-          }
+header nav {
+    flex-direction: column;
+    font-size: 14px;
+ }
       
-        
-            header nav a {
-            margin: 5px 0;
-            }
+header nav a {
+    margin: 5px 0;
+ }
                   
-            #informationContainer {
-            height: 40px;
-            align-items: center;
-            }
+#informationContainer {
+    height: 40px;
+    align-items: center;
+ }
                   
-            .search-box {
-            margin: 20px 0;
-            }
+.search-box {
+    margin: 20px 0;
+ }
                 
-            .search-txt{
-            border:none;
-            outline: none;
-            color:var(--color_black);
-            font-size: 12px;
-            transition: 0.4s;
-             line-height: 3.5;
-            width: 0;
-              }
+.search-txt{
+    border:none;
+    outline: none;
+    color:var(--color_black);
+    font-size: 12px;
+    transition: 0.4s;
+    line-height: 3.5;
+    width: 0;
+ }
                     
-            .search-box:hover .search-txt{
-            width: 160px;
-            padding: 0 6px;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-             }
+.search-box:hover .search-txt{
+    width: 160px;
+    padding: 0 6px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+ }
                 
-            .search-btn {
-            margin-right: 5px;
-             }
+.search-btn {
+    margin-right: 5px;
+ }
                   
-            #profile {
-            margin: 20px 0;
-              }
+#profile {
+    margin: 20px 0;
+ }
             
-            
-             /* MAIN */
-            #newYasmim {
-            flex-direction: column;
-            align-items: center;
-            margin: 1.25rem;
-            align-items: start;
-            }
-            .botao-comprar{
-            margin: 10% 10%;
-              } 
+ /* MAIN */
+#newYasmim {
+    flex-direction: column;
+    align-items: center;
+    margin: 1.25rem;
+    align-items: start;
+ }
+
+.botao-comprar{
+    margin: 10% 10%;
+ } 
                     
-            #titleContainer {
-            width: 100%;
-             }
+#titleContainer {
+    width: 100%;
+ }
                   
-            #titleContainer h1 {
-            font-size: 30px;
-             }
+#titleContainer h1 {
+    font-size: 30px;
+ }
+
+ #titleContainer p {
+    font-size: 14px;
+ }
                   
-            #titleContainer p {
-            font-size: 14px;
-             }
+#titleContainer button {
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    margin-top: 20px;
+ }
                   
-            #titleContainer button {
-            width: 100%;
-            height: 50px;
-            font-size: 16px;
-            margin-top: 20px;
-             }
-                  
-            #YasmimPic {
-            width: 100%;
-            height: auto;
-             }
+#YasmimPic {
+    width: 100%;
+    height: auto;
+ }
+
+ /* FOOTER */
+
+.footer-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-inline: -5rem;
+    font-size: 13px;
+    display: block;
+    flex-direction:column-reverse;
+ }
+
+ .footer-container ul{
+    margin-top: 1rem;
+ }
+
             
-             .footer-container{
-             display: flex;
-             align-items: center;
-             justify-content: center;
-             margin-inline: -5rem;
-             font-size: 13px;
-             /* display: flexbox; */
-             display: block;
-             
-             flex-direction:column-reverse;
-                 }
+.footer-segundo{
+    text-align:center;
+    justify-content: center;
+    font-size:13px;
+    padding-top: 1rem;
+ }
             
- 
-            .footer-segundo{
-            text-align:center;
-            justify-content: center;
-            font-size:13px;
-            padding-top: 1rem;
-             }
-            
-            .footer-segundo img{
-            width: 2rem;
-            margin: 0rem 0.5rem;
-             }
-            }
+.footer-segundo img{
+    width: 2rem;
+    margin: 0rem 0.5rem;
+ }
+}
             
             
   
