@@ -344,28 +344,42 @@ header nav a {
  .search-btn {
     margin-right: 5px;
  }
-                  
-#profile {
-    margin: 20px 0;
- }
 
 /* MAIN */
 
-#feedback form {
+hr{
+    width: 20rem;
+    margin-bottom: 2rem;
+}
+
+#feedback div {
     width: 100%;
+    padding-top: 0.8rem;
  }
         
-#feedback form input {
-    width: 300px;
+#feedback form {
+    width: 22rem;
+    align-items: center;
+    justify-items: center;
  }
         
-#feedback form textarea {
-    width: 300px;
+#feedback form textarea, select {
+    width: 21.5rem;
  }
-           
+#botoes-todos{
+    align-items: center;
+}
+
+#nome, #email{
+    width: 21.5rem;
+} 
+/* table{
+    flex-direction: column;
+} */
+
 #feedback img {
-    width: 300px;
-    height: 300px;
+    width: 18.75rem;
+    height: 18.75rem;
  }
 
             

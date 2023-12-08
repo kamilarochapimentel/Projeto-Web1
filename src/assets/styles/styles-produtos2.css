@@ -474,12 +474,12 @@ header nav a {
   
 .card-contador i{
     cursor: pointer;
-    color: var(--color_red);
+    color: var(--color_lilas4);
       
   }
   
 .card-contador i:hover{
-    color:var(--color_red2);
+    color:var(--color_lilas2);
   }
 
 /* FOOTER */
