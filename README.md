@@ -1,5 +1,5 @@
-## Site de Floricultura
+# ifood-project
 
-Projeto final da disciplina de Web1.
+Este é um projeto de renovação do site do ifood proposto pela AdaTech.
 
- :tulip: [Para visualizar](https://projeto-web1-site-de-flores.vercel.app/index.html)
+[Clique aqui para visualizar](https://erickgarciadev.github.io/ifood-project/)

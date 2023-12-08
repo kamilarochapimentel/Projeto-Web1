@@ -165,7 +165,7 @@ header nav a li {
   }
   
   .card{
-      width: 300px;
+      width: 18.75rem;
       height: 440px;
       box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
       border-radius: 15px;
@@ -313,6 +313,7 @@ footer .footer-container a{
     margin-left: 1%;
 }
 
+
 /* RESPONSIVIDADE */
 
 @media screen and (max-width: 768px) {
@@ -395,7 +396,8 @@ header nav a {
     display:flex;
     justify-content: center;
     margin-left: 9%;
-    flex-direction: column;     
+    flex-direction: column; 
+         
   }
   
 .card{
@@ -404,7 +406,8 @@ header nav a {
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
     border-radius: 15px;
     margin-top: 50px;
-    margin-bottom: 50px;     
+    margin-bottom: 50px;
+     
   }
 
 .card img{
@@ -415,6 +418,7 @@ header nav a {
 .card-texto{
     text-align: center;
     color:var(--color_gray3);
+    
   }
   
 .card-texto span{
@@ -424,8 +428,8 @@ header nav a {
   
 #card-descricao{
     font-size: 16px;
-    text-align: justify;
     padding: 8px 20px;
+    text-align: center;
   }
 
 .card-valores{
@@ -435,30 +439,32 @@ header nav a {
   
 .card-preco{
     padding-bottom: 8px;
-    color: var(--color_green);
+    color: var(--color_lilas4);
     font-weight: bold;
+    text-align: center;
  }
   
 .botao{
     padding: 10px 30px;
     font-weight: bold;
-    border-radius: 10px;
-    color: var(--color_red);
+    border-radius: 2rem;
+    background-color: var(--color_lilas3);
+    color: var(--color_black);
     border: none;
   }
   
 .botao:hover{
-    background-color: var(--color_red);
+    background-color: var(--color_lilas);
     color: var(--color_white);
     cursor: pointer;
   }
-  
+
 .card-botao{
     display:flex;
     justify-content:center;
     margin-top: 10px;
   }
-  
+
 .card-contador{
     font-weight:bold;
     align-items: center;
